@@ -1,4 +1,4 @@
-# Interactive WebGIS for gender-sensitive Walkability Assessment in Salzburg
+# Interactive WebGIS for Gender-Sensitive Walkability Assessment in Salzburg
 
 <img width="2552" height="1180" alt="image" src="https://github.com/user-attachments/assets/f5314781-2b4b-4320-b6a3-34ba2d285acd" />
 
