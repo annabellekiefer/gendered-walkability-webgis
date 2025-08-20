@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Walkability Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'walkability/css/style.css' %}">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+    <header>
+    <div class="logo-container">
+        <img src="{% static 'walkability/data/logo_PLUS.png' %}" alt="PLUS Logo">
+        <img src="{% static 'walkability/data/logo_cde.png' %}" alt="CDE Logo">
+    </div>
+    <h1>Gender-Sensitive Walkability Assessment in Salzburg</h1>
+</header>
+
+    <div class="container">
+        <aside class="left-sidebar">
+            <p><b>Urban walkability</b> is often measured with <b>general indicators</b> such as:</p>
+            <ul>
+                <li>🚶🏻‍♀ Sidewalk width</li>
+                <li>🚦 Street connectivity</li>
+                <li>🏪 Presence of amenities</li>
+            </ul>
+            <p>
+                While these metrics are useful, they fail to capture <b>safety concerns</b> of pedestrian groups such as:
+            </p>
+            <ul>
+                <li><b>🌃 Women at night</b> avoiding poorly lit streets</li>
+                <li><b>👨‍👩‍👧 Caregivers</b> limited by stairs or narrow sidewalks</li>
+            </ul>
+            <p>
+                Therefore, this project applies the <b>NetAScore</b> toolbox to build <b>user-specific walkability indices</b> in Salzburg, showing how different perspectives reshape what counts as walkable. The results allow urban planners and citizens to identify <b>where inclusivity and safety can be improved.</b>
+            </p>
+            </aside>
+
+        <main id="map"></main>
+    </div>
+
+    <script src="{% static 'walkability/js/map.js' %}" defer></script>
+</body>
+</html>

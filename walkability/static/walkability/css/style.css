@@ -1,0 +1,174 @@
+/* Base layout */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* full viewport height */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header with logos */
+header {
+    background-color: #e3edf4;
+    color: #4575b4;
+    padding: 10px;
+    text-align: center;
+    position: relative; /* needed for absolute logo positioning */
+    box-sizing: border-box;
+}
+
+.logo-container {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.logo-container img {
+    height: 45px;   /* logo size */
+    width: auto;
+}
+
+/* Container for sidebar + map */
+.container {
+    display: flex;
+    flex: 1; /* take up all remaining space below header */
+    min-height: 0; /* important for enabling scrollbar inside sidebar */
+}
+
+/* Sidebar */
+aside {
+    width: 400px;
+    background-color: #e3edf4;
+    color: #4575b4;
+    padding: 20px;
+    overflow-y: auto; /* only sidebar scrolls */
+}
+
+/* Sidebar text */
+aside p {
+    text-align: justify;   /* justified text */
+    line-height: 1.5;      /* better readability */
+    margin-bottom: 6px;    /* spacing between paragraphs */
+}
+
+/* Sidebar lists */
+aside ul {
+    margin: 10px 0 15px 20px; /* small indentation */
+    padding: 0;
+    line-height: 1.5;         /* better readability */
+}
+
+.left-sidebar ul {
+    list-style-type: none; /* remove default bullets */
+    padding-left: 0;       /* align text slightly to the left */
+}
+
+aside li {
+    margin-bottom: 1.5px;  /* spacing between items */
+}
+
+/* Map container */
+main#map {
+    flex: 1;
+    min-height: 0; /* ensures full height within container */
+}
+
+/* Walkability controls and legend */
+.legend {
+    background: #f4fafe !important; /* light blue */
+    color: #4575b4 !important;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.legend h4 {
+    margin: 0 0 4px 0; /* remove large top margin, keep small bottom space */
+    font-size: 15px;
+    font-weight: bold;
+    color: #4575b4;
+}
+
+/* Layer control */
+.leaflet-control-layers {
+    background: #f4fafe !important; /* light blue */
+    color: #4575b4 !important;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Profile selection control */
+.profile-control {
+    background: #f4fafe !important; /* light blue */
+    color: #4575b4 !important;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.profile-control h4 {
+    margin: 0 0 4px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #4575b4;
+}
+
+/* Links inside profile control */
+.profile-control a {
+    display: block;
+    padding: 5px;
+    margin-bottom: 4px;
+    text-decoration: none;
+    color: #4575b4 !important;
+    border-radius: 3px;
+}
+.profile-control a:hover {
+    background: #e6f3ff;
+    color: #2c5282;
+}
+.profile-control a.active {
+    font-weight: bold;
+    background: #e6f3ff;
+}
+
+/* Legend items */
+.legend-item {
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+.legend-color {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    border: 1px solid #000;
+}
+
+/* Leaflet map UI buttons */
+.leaflet-bar a {
+    background-color: #f4fafe !important;
+    border-bottom: 1px solid #ccc;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #4575b4 !important;
+}
+
+/* Leaflet popup styling */
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background: #f4fafe  !important;
+    color: #4575b4 !important;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}

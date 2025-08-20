@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.tif
+*.tiff
+
+# Environments
+.venv/
+env/
+venv/
+
+# Django
+db.sqlite3
+
+# VSCode
+.vscode/
+
+# Sonstige große Daten
+*.log
+*.cache

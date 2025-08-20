@@ -1,0 +1,4 @@
+walkability/static/walkability/data/*.json filter=lfs diff=lfs merge=lfs -text
+walkability/static/walkability/data/netascore_salzburg_walk.json filter=lfs diff=lfs merge=lfs -text
+walkability/static/walkability/data/netascore_salzburg_walk_child.json filter=lfs diff=lfs merge=lfs -text
+walkability/static/walkability/data/netascore_salzburg_walk_night.json filter=lfs diff=lfs merge=lfs -text
