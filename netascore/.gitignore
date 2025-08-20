@@ -1,6 +1,3 @@
-# exclude data directory
-data/*
-
 # exclude VSCode files
 .vscode/*
 
@@ -166,3 +163,7 @@ cython_debug/
 .idea/
 
 .DS_Store
+
+*.tif
+*.tiff
+*.xml
