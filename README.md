@@ -35,7 +35,7 @@ gendered-walkability-webgis/
 - **Raster data** (e.g., `*.tif`) is ignored in `.gitignore` and must be downloaded manually. 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository
 ```bash
@@ -83,7 +83,7 @@ http://127.0.0.1:8000/
 ## Documentation
 
 This project is based on the **NetAScore toolbox**:  
-🔗 [NetAScore Documentation](https://doi.org/10.1177/23998083241293177)
+[NetAScore Documentation][(https://doi.org/10.1177/23998083241293177)](https://github.com/plus-mobilitylab/netascore-documentation)
 
 The methods extend NetAScore by integrating gender-sensitive indicators such as:
 - **Lighting conditions (lit attribute from OSM)**
@@ -95,8 +95,11 @@ The methods extend NetAScore by integrating gender-sensitive indicators such as:
 
 ## Credits
 
-- **Project Author**: Annabelle Kiefer (s1111172)  
-- Developed as part of the course *Application Development (GIS), University of Salzburg* (2025).  
+- **Project Author**: Annabelle Kiefer 
+- Developed as part of the course *Application Development (GIS), University of Salzburg* (2025).
+
+- *Data analysis powered by NetAScore.
+Werner, C., Wendel, R., Kaziyeva, D., Stutz, P., van der Meer, L., Effertz, L., Zagel, B., & Loidl, M. (2024). NetAScore: An open and extendible software for segment-scale bikeability and walkability. Environment and Planning B: Urban Analytics and City Science, 0(0). https://doi.org/10.1177/23998083241293177*
 
 ---
 
