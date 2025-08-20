@@ -98,8 +98,8 @@ The methods extend NetAScore by integrating gender-sensitive indicators such as:
 - **Project Author**: Annabelle Kiefer 
 - Developed as part of the course *Application Development (GIS), University of Salzburg* (2025).
 
-- *Data analysis powered by NetAScore.
-Werner, C., Wendel, R., Kaziyeva, D., Stutz, P., van der Meer, L., Effertz, L., Zagel, B., & Loidl, M. (2024). NetAScore: An open and extendible software for segment-scale bikeability and walkability. Environment and Planning B: Urban Analytics and City Science, 0(0). https://doi.org/10.1177/23998083241293177*
+- *Data analysis powered by NetAScore:* 
+*Werner, C., Wendel, R., Kaziyeva, D., Stutz, P., van der Meer, L., Effertz, L., Zagel, B., & Loidl, M. (2024). NetAScore: An open and extendible software for segment-scale bikeability and walkability. Environment and Planning B: Urban Analytics and City Science, 0(0). https://doi.org/10.1177/23998083241293177*
 
 ---
 
