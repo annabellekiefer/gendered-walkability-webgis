@@ -2,7 +2,4 @@
 
 This is the final project for Application Development (GIS).
 
-Tools used:
-- Djano
-- Leaflet (Frontend)
-- NetAScore
+README is in progress.
