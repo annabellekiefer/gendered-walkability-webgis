@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <title>Walkability Map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    {% load static %}
-    <link rel="stylesheet" href="{% static 'walkability/css/style.css' %}">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body>
     <header>
     <div class="logo-container">
-        <img src="{% static 'walkability/data/logo_PLUS.png' %}" alt="PLUS Logo">
-        <img src="{% static 'walkability/data/logo_cde.png' %}" alt="CDE Logo">
+        <img src="data/logo_PLUS.png" alt="PLUS Logo">
+        <img src="data/logo_cde.png" alt="CDE Logo">
     </div>
     <h1>Gender-Sensitive Walkability Assessment in Salzburg</h1>
 </header>
@@ -40,6 +39,6 @@
         <main id="map"></main>
     </div>
 
-    <script src="{% static 'walkability/js/map.js' %}" defer></script>
+    <script src="js/map.js" defer></script>
 </body>
 </html>

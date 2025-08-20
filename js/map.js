@@ -28,15 +28,15 @@ L.control.scale({ position: 'bottomright', imperial: false }).addTo(map);
 // Walkability profiles
 const profiles = {
     "General Walkability": {
-        url: "/static/walkability/data/netascore_salzburg_walk.json",
+        url: "data/netascore_salzburg_walk.json",
         attribute: "index_walk_ft"
     },
     "Walkability for Women at Night": {
-        url: "/static/walkability/data/netascore_salzburg_walk_night.json",
+        url: "data/netascore_salzburg_walk_night.json",
         attribute: "index_walk_night_ft"
     },
     "Walkability for Caregivers with Children": {
-        url: "/static/walkability/data/netascore_salzburg_walk_child.json",
+        url: "data/netascore_salzburg_walk_child.json",
         attribute: "index_walk_child_ft"
     }
 };
